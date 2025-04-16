@@ -1,0 +1,13 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*		  					Droite							*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+// Coéficients &#xD;
+a:=TargetDist;&#xD;
+b:=Offset;&#xD;
+&#xD;
+// Position=ax+b&#xD;
+fStraight:=a*x+b;&#xD;
+</Text></StructuredTextModel>

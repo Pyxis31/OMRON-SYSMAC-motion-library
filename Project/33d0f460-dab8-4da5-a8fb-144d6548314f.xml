@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <ReferredLibrariesModel>
+      <ReferredLibraries />
+      <BuildOption>
+        <data>
+          <LibraryModel>
+            <Name>OEEF_FS_lib_1_3_11</Name>
+            <NameSpace></NameSpace>
+            <Version>1.3.11</Version>
+            <Revision>1</Revision>
+            <LibraryId>7b7f3bf4-14ab-4c9f-ad2b-af4f1d3d9f42</LibraryId>
+            <Author>simfra</Author>
+            <Company>OEEF</Company>
+            <DateCreated>2019-07-12T14:33:44.6529232+02:00</DateCreated>
+            <DateModified>2025-04-15T15:42:28.1248907+02:00</DateModified>
+            <Comment></Comment>
+            <Password></Password>
+            <AttachedFiles />
+            <AttachedFilesRelativePaths />
+            <PublicPartsNames />
+            <InternalPartsNames />
+            <BuildDevice>
+              <Category>Controller</Category>
+              <Family>Nex</Family>
+              <FullModel>NX1P2-1040DT1</FullModel>
+              <MajorVersion>1</MajorVersion>
+              <MinorVersion>21</MinorVersion>
+              <Revision>0</Revision>
+              <DisplayVersion>1.21</DisplayVersion>
+              <Packages>
+                <Package Name="Motion" Version="1.21" />
+              </Packages>
+            </BuildDevice>
+            <DependencyId>bbc0fbd3-1668-4bc2-ad9a-3b09873878ce</DependencyId>
+            <IsSource>true</IsSource>
+            <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+            <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+            <LibraryFilePath></LibraryFilePath>
+            <LibraryFileRelativePath></LibraryFileRelativePath>
+            <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+            <AsOldVer>false</AsOldVer>
+            <SchemaVersion>3</SchemaVersion>
+            <Parameter1>false</Parameter1>
+            <ApplicationProductVersion>1.62.0.64009</ApplicationProductVersion>
+          </LibraryModel>
+        </data>
+      </BuildOption>
+      <ExcludedParts>
+        <ExcludedPart>cfbd4ea1-db4d-4941-9a72-41c411734e62</ExcludedPart>
+        <ExcludedPart>9a176ad7-cd2a-4850-848b-eece5a614d41</ExcludedPart>
+      </ExcludedParts>
+      <InternalParts>
+        <InternalPart>87e668e1-99a1-45c9-9468-25079eaf1f29</InternalPart>
+        <InternalPart>ef284817-cff6-4729-a020-4f55f6d98b32</InternalPart>
+        <InternalPart>1f0c35d4-ff8a-4611-9813-b77f0243d4ca</InternalPart>
+        <InternalPart>db1b2b00-af00-48c8-bc1e-ccb8fec9af6e</InternalPart>
+      </InternalParts>
+      <LibraryTrackingIdConversionTable>
+        <LibraryEntityTrackingId>d6f6b6d5-830a-4460-9cdd-0073b4e7d2d0</LibraryEntityTrackingId>
+        <PartTrackingIds>
+          <ConversionItem Id="27ca605e-975f-4d55-852d-d9ad23c72161" NewId="3224c9dc-b502-4146-be18-12c84eebcf13" />
+          <ConversionItem Id="505e2545-43f3-4a66-8a05-30bebab042b8" NewId="8ac5f10a-2491-4bb0-877e-f8ef58a285da" />
+          <ConversionItem Id="cfbd4ea1-db4d-4941-9a72-41c411734e62" NewId="f3f4d4c9-c96a-4e06-a295-6496e9170927" />
+          <ConversionItem Id="be4fd5c0-2f84-4234-890e-978c957058e5" NewId="c8e27cd3-5ea8-4a3e-9711-f49a76fc5f12" />
+          <ConversionItem Id="a21f4e8c-1fc2-48d0-961c-a4415a54c521" NewId="f259e321-9c3e-446c-88f1-b66969f004b6" />
+          <ConversionItem Id="9c31a3b8-0d4f-4bda-ad67-194742173885" NewId="b85c77fe-d6ac-47d0-b208-475dc8e743bb" />
+          <ConversionItem Id="9a176ad7-cd2a-4850-848b-eece5a614d41" NewId="df2b9229-700f-46df-94ed-aaa88107c31c" />
+          <ConversionItem Id="ce97bb48-b4fe-47a5-ab94-c00b2df6f83b" NewId="14fa852c-442a-49ca-8d11-96c02ff03a96" />
+          <ConversionItem Id="5ba22cbb-f06f-4ec0-abee-97b6fe1bf807" NewId="c8daa07a-fb04-48cd-aa1b-14b0ae27119b" />
+          <ConversionItem Id="1b53e6c2-d7f7-48a3-8b32-bd85bb3f5daa" NewId="634a2d22-2c5d-4e55-a073-a166661d150c" />
+          <ConversionItem Id="e2586b62-fb85-497c-a70e-523e460a2d3d" NewId="510c1fc7-3dfc-46c3-a802-f2b867ba3797" />
+          <ConversionItem Id="a18dd965-95f2-4a7d-ab35-071ae4e68cd8" NewId="9d387058-f54d-435b-a423-7cd277dd1045" />
+          <ConversionItem Id="4c50102d-2fc2-4c4c-b78b-eb7035a77c9c" NewId="917afe10-e8c9-410c-bbb9-24096affc378" />
+          <ConversionItem Id="6f19a5a3-46bf-4508-8046-fd9de411f0de" NewId="9e072eb3-4c50-4b13-b9ff-43a4d634ed0c" />
+          <ConversionItem Id="bf39b6f7-a4c2-4b6c-bb8e-a216b7f3ce71" NewId="fe693d28-8ceb-4698-8823-6aca70a36f23" />
+          <ConversionItem Id="265addbd-0da9-4a90-99d0-e96a88d10caf" NewId="9657304e-23f7-42d2-bd81-2908d4fd35d3" />
+          <ConversionItem Id="8573f954-65cd-4f69-a1c5-8bf0e31ff41f" NewId="1602c638-7150-4dae-8592-3f9d581e62dd" />
+          <ConversionItem Id="87e668e1-99a1-45c9-9468-25079eaf1f29" NewId="a7500a6c-6b84-4194-be4a-edbd20469b3c" />
+          <ConversionItem Id="6a24b60f-3ff9-486d-883c-eba1cce2e781" NewId="6d9417c5-0eb6-4fe9-824e-ad2a9a5996a5" />
+          <ConversionItem Id="73d32f39-5ee2-40ad-ba45-7b9a0d2e1bc0" NewId="dc306b02-b7b5-48b1-9c63-b8296f5376d8" />
+          <ConversionItem Id="0b1a54ac-59c8-476e-b1a2-44133d2c7a30" NewId="2d094379-326b-4b64-9039-a8fcc440e271" />
+          <ConversionItem Id="e26041f4-078e-4118-b5a4-1a02a7414dc4" NewId="c8f3734f-3ea0-4df3-845c-9dbe819b7302" />
+          <ConversionItem Id="5331c2bf-d3f8-4d1c-b4d7-6446cd584b9d" NewId="4c32620f-6d29-446a-a12b-886510c92d37" />
+          <ConversionItem Id="bf66cb00-e913-4be9-9913-014956da7b96" NewId="02e67ac9-a1f4-474d-9859-84dbfa909a9b" />
+          <ConversionItem Id="ef284817-cff6-4729-a020-4f55f6d98b32" NewId="dfff5267-430c-4c97-80d0-ad3269c52a7b" />
+          <ConversionItem Id="e95ddb92-e8ea-4706-9de3-53a3f9616783" NewId="a45f7b53-6755-4d97-9710-c1eca5dfc04b" />
+          <ConversionItem Id="2d56944f-c86e-404e-b7dd-0e6844d1b5f1" NewId="3b1bd5a1-3a56-4e4d-a7ce-b3ef014552ee" />
+          <ConversionItem Id="954633a5-a8ea-4684-a022-fdb5ef07363e" NewId="3d08cf88-25de-4840-9809-2282cc34ec53" />
+          <ConversionItem Id="555c3af7-d920-4d42-8447-581906ac5de6" NewId="d276e049-7604-4cc9-895c-0b95c6120d9f" />
+          <ConversionItem Id="c144c257-11c1-45d0-b7d3-47b723b775b5" NewId="165993cc-5ae0-4c5f-8776-f5b4cf6b320e" />
+          <ConversionItem Id="9b93fdf3-46f1-49c1-9cef-6f0c16e93bfc" NewId="36eb8469-7469-4d5c-9584-6621327953f8" />
+          <ConversionItem Id="1f0c35d4-ff8a-4611-9813-b77f0243d4ca" NewId="099ff844-a046-4902-b5a3-81a73f84b5cf" />
+          <ConversionItem Id="2f7a53d0-e2e8-43f1-ad21-385ac038ae27" NewId="a74008b8-ba3f-400f-8902-639aa6ed4070" />
+          <ConversionItem Id="402773e9-337e-457e-95b0-59ccd7897849" NewId="da20b127-6b0c-471d-9bdd-fb221b55ee10" />
+          <ConversionItem Id="2dddc953-fe1e-41c2-b5a6-941c0bb3add2" NewId="6b11940a-0f6a-436c-9f67-93c50147e77a" />
+          <ConversionItem Id="2cf52772-14ea-46c7-af0d-d6bbf0c8312d" NewId="f22920bd-8a57-4144-8f7c-8f01550e530a" />
+          <ConversionItem Id="95f87864-5e6c-48e5-8fa0-17d48f17eb55" NewId="4478b45c-afef-4252-99c7-6df08474298b" />
+          <ConversionItem Id="7c791f0a-21e6-4f76-9286-285270b71435" NewId="df4f219d-eaf7-4079-8a81-b6429793aabe" />
+          <ConversionItem Id="db1b2b00-af00-48c8-bc1e-ccb8fec9af6e" NewId="0e789962-f77b-41bf-8c57-3e1ad78b9d1b" />
+          <ConversionItem Id="9198b654-a199-48ca-bf2a-8e8755a0d9be" NewId="369efec8-d9d6-4128-8583-3baaed2a3692" />
+          <ConversionItem Id="85730d80-cb1e-4528-a958-12f5c254ae7d" NewId="bd5b87b4-5521-4148-ba4f-73020b15d671" />
+          <ConversionItem Id="fa977c11-a3fa-4623-a74a-55bee8e9d7c6" NewId="f5f552d3-d197-40d5-bac6-2f594c99ed36" />
+          <ConversionItem Id="5201459e-2219-404b-9a58-4fa23cf1bc36" NewId="eed05eba-7a03-4b4d-b8c1-cd4c84e103a3" />
+          <ConversionItem Id="412d5bbf-7e58-4f87-a743-9e3df6a8f17e" NewId="91e0c9a3-c1bb-4e83-9f3b-c9195ccc4e66" />
+          <ConversionItem Id="0f05a371-0b17-4d34-b224-2ce9f032e07b" NewId="9b44925a-82c7-4d34-92f8-ebdaf0c9b8b8" />
+          <ConversionItem Id="02a14067-ab2d-4d67-9430-76c74bd67eb6" NewId="9e103c6e-6332-490e-a825-3b66132ed5fe" />
+          <ConversionItem Id="3918c5d5-fbac-44df-919e-3395f89ba6e5" NewId="40814ce4-932f-46f4-9ab6-10f7025ba836" />
+          <ConversionItem Id="8ccd25cb-4f4e-4ec5-92c8-3d3d542a768e" NewId="fdc35c3c-fad2-4967-8851-9bff8c6fb1d6" />
+          <ConversionItem Id="59dd014d-6503-4bcd-a765-badace096177" NewId="2fbe7d93-22c2-4a28-a7a9-b225e289e881" />
+          <ConversionItem Id="a5b1dedb-a11b-4b5a-9561-a0f8b4acfd26" NewId="9e35a6e8-0972-4017-9842-74b58c0610a1" />
+          <ConversionItem Id="369ec0df-7ba2-481e-94c8-7078e37a3a3c" NewId="70cc80fe-a70a-4149-9567-a36c4f342573" />
+          <ConversionItem Id="21276aba-95e8-471a-8e18-9dd6ca872bfb" NewId="12ba388f-db85-45b1-9ff5-2f68a065ef67" />
+          <ConversionItem Id="78321d44-b1ef-4f42-9585-8b154b968e1b" NewId="4a032300-ec15-47be-b5cd-603ca0b0666a" />
+          <ConversionItem Id="b69dba6d-775a-4b0c-b35c-1adda688991a" NewId="24970786-276d-41e9-929d-2d6e6faf51d6" />
+          <ConversionItem Id="885d1e9e-6312-481b-9724-2421d56c5083" NewId="1972d204-5098-45ee-8cdd-9ee99a1aee2a" />
+          <ConversionItem Id="eb6cf534-364a-4d09-bfd3-f692f5cef13a" NewId="63de60ea-53e8-4e00-a2e6-90cfa48df5f9" />
+          <ConversionItem Id="97f1dfdb-3058-4d56-afff-9227b049f156" NewId="fffd82e2-d003-471d-9d02-42d560bab7cb" />
+          <ConversionItem Id="cfcaae7e-1b3e-416f-b83f-757b239ebe22" NewId="cf26501b-ff77-47d9-82d6-65bef788fd8e" />
+          <ConversionItem Id="4e50b68d-cb70-4234-bb48-ec0107de8ef1" NewId="46006dcc-df32-4d83-b9c1-2418abd5183e" />
+          <ConversionItem Id="a1b438b8-542c-4470-9384-3d05ae71b7e0" NewId="3c86376a-9a00-4d81-b442-27696fb13392" />
+          <ConversionItem Id="d2d11afa-1a8c-4577-8648-9d28e7e246b2" NewId="2abcae66-5c59-4c5f-8b5a-8269fbd40861" />
+          <ConversionItem Id="c33a4e89-224a-4d3d-ba1a-fc7f88285e07" NewId="04aee364-b5a8-48c3-a7cf-3ab688a0b32b" />
+          <ConversionItem Id="8c39d3d8-4d4a-4521-b181-36adf6a4fa77" NewId="e059352a-d4e8-4860-b7bd-7e7fe4b51758" />
+          <ConversionItem Id="c92da9fe-6ebf-4e85-8616-226490c18df0" NewId="01b0c8a8-704c-4307-8392-45561e04088d" />
+          <ConversionItem Id="368e2781-76df-47c9-8f02-83c06eacbdf5" NewId="a1bdf1ae-ab2f-498b-8cc6-86681d166091" />
+          <ConversionItem Id="057788a1-251e-4b65-9d35-bd87efb3dbd1" NewId="dfcc98e0-abbb-426b-869a-f48cc628478e" />
+          <ConversionItem Id="631b4ee5-e5e3-4733-b3ae-d93f96569bd1" NewId="e2ce7754-f3e3-4f73-90e1-1b0f4cf789e8" />
+          <ConversionItem Id="f19fb433-334d-4335-b1f5-edd765370703" NewId="535fc124-3853-4df1-9a45-8f2d5c99e3d7" />
+          <ConversionItem Id="4012ade7-0b0e-4242-bbc4-12f12566868c" NewId="cdf15971-c0bd-495c-b2c9-d99d8a1dac06" />
+          <ConversionItem Id="0ec70225-a6b5-436e-90a0-e490fe2547c6" NewId="e81c09ca-2d51-408f-9986-44861da72cdf" />
+          <ConversionItem Id="eeb043de-36a2-4431-b2db-f7b6f0a1da20" NewId="06e463e8-3c3d-4c46-b450-f10d80b66c1e" />
+          <ConversionItem Id="373d0fc7-ff32-40b5-9909-e620a0769499" NewId="1fdc876b-973b-4059-a2f8-2649ca8e45aa" />
+          <ConversionItem Id="2a65779a-2adf-4f0c-a859-789d3cc02835" NewId="91b840c9-fb64-4f8d-9619-2bcf847c7da6" />
+          <ConversionItem Id="4bbd9fcc-ceb5-412e-be74-cec1853bbbfb" NewId="4d552c51-93a7-442b-98ea-8ea6316926a0" />
+          <ConversionItem Id="cb8136cb-52ad-45e6-ae85-6e3b05e6cbfd" NewId="3b301683-1e88-468d-ad7d-c65c7a9d4a38" />
+          <ConversionItem Id="1589aff5-0e82-4b9e-aed6-5c9c960fe273" NewId="cd1133f7-51f0-40f8-9f36-01cd386fa184" />
+          <ConversionItem Id="59bdd303-780d-4721-9b83-03f75e4bf9d8" NewId="d7bf368b-4380-4303-8cc1-e73fc80475d2" />
+          <ConversionItem Id="7655671d-cca3-4a73-830f-5325f7561403" NewId="efd298c1-5338-4ba9-adbd-ce9cb6241c3e" />
+          <ConversionItem Id="1a89fe45-a3b9-467b-9230-a0b6600d6cd3" NewId="27463c6b-0a50-4a34-8a62-68f8f06aef4f" />
+          <ConversionItem Id="35ba70b5-b07c-49f5-b5bd-92e298a56a29" NewId="82776fbb-c57f-4500-b9d9-54baca346ff6" />
+          <ConversionItem Id="023aba0c-ea8e-4d80-8f75-932adea33877" NewId="4191cc37-ddc7-4ec7-b6c6-c2d59992d4a3" />
+          <ConversionItem Id="c2b75b3b-639d-4eaf-85b0-21278df89929" NewId="70cc4df9-58f6-4f46-8ac7-e78b1cb37605" />
+          <ConversionItem Id="54df6c91-a865-456f-b7e2-77baf8aa44bd" NewId="b095e1e5-284e-4683-a594-d949496294a1" />
+          <ConversionItem Id="fbe6983d-f113-4c8c-a206-55f90c5d24d8" NewId="d2d86332-558d-482b-bd6f-44a0deceb6c2" />
+          <ConversionItem Id="6daaaeeb-213e-4b9e-96cd-04315c5df8a5" NewId="7e98698d-5ae9-4508-b998-b7827124bfa5" />
+          <ConversionItem Id="36ff42ac-c0c5-4d11-bdfc-7a99e626fe55" NewId="a01ecd23-31ec-415f-b80d-9c1bfdfe89b3" />
+          <ConversionItem Id="0f448923-a992-4da7-b2b5-071fe79cf66a" NewId="bae12b2f-dea1-429c-9bf8-f9c16b7df688" />
+          <ConversionItem Id="d5171589-a4b0-407c-8ead-a51ae3b27a38" NewId="f85d0c59-f7ce-47ea-ab19-6359001b4ab6" />
+          <ConversionItem Id="1975b66f-306b-4a04-9dc2-015beea4e0a5" NewId="8b3f6c54-11f0-4e0c-aaa2-1224ff51d734" />
+          <ConversionItem Id="a1dc4a50-e110-4252-846d-ee844b7c403a" NewId="e662a541-59b8-4d0d-a464-a47bf64b80ac" />
+          <ConversionItem Id="724bdf78-d071-4544-85ad-854d4a8e4367" NewId="7612f800-d40e-4480-94a9-7f3393b0010b" />
+          <ConversionItem Id="3262d523-22df-4042-afcb-6b73a0f256ea" NewId="24be5160-f9fb-40ab-a69e-78c24711f8ae" />
+          <ConversionItem Id="afa56bb4-5c51-469f-926a-9aa78b1ba0c2" NewId="f230b292-46a7-4c9e-bdaf-935e4f339d3c" />
+          <ConversionItem Id="5acca0c9-48b3-4d46-b9f2-cae22accda20" NewId="2564ab8c-269b-4fe3-9314-9fc8cec0492d" />
+          <ConversionItem Id="e9de27c4-c7e0-4678-9f95-e847c8bc6955" NewId="c47e1a55-79cd-4bda-8443-89a6f39f1e5a" />
+          <ConversionItem Id="9007fa1c-9218-488f-bb52-1512d0b6d175" NewId="6a13dfac-f88a-4efa-97b0-37ebf07f4176" />
+        </PartTrackingIds>
+      </LibraryTrackingIdConversionTable>
+      <AreLibrariesIncluded>true</AreLibrariesIncluded>
+      <IsLibraryIdsDifferenceNotified>false</IsLibraryIdsDifferenceNotified>
+    </ReferredLibrariesModel>
+  </data>
+</data>

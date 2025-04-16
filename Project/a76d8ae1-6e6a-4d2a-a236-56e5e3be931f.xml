@@ -1,0 +1,18 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*		  				Polynôme 5						*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+// Coéficients &#xD;
+a:=6.0-3.0*(v0+v1)+((a1-a0)/2.0);&#xD;
+b:=-15.0+8.0*v0+7.0*v1+(3.0*a0/2.0)-a1;&#xD;
+c:=10.0-6.0*v0-4.0*v1-(3.0*a0/2.0)+(a1/2.0);&#xD;
+d:=a0/2.0;&#xD;
+e:=v0;&#xD;
+f:=Offset;&#xD;
+K:=TargetDist;&#xD;
+&#xD;
+// Position=ax5+bx4+cx3+dx2+ex+f&#xD;
+fPoly5:=f+(K*(a*(x**5)+b*(x**4)+c*(x**3)+d*(x**2)+e*x));&#xD;
+</Text></StructuredTextModel>

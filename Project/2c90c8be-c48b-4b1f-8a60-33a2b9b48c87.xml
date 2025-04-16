@@ -1,0 +1,25 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*		   Filtre à moyenne glissante			*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+Loop:=1;&#xD;
+REPEAT&#xD;
+	// Pousse la pile pour libérer le premier rang&#xD;
+	Samples[QofSamples-Loop]:=Samples[QofSamples-(Loop+1)];&#xD;
+	Loop:=Loop+1;&#xD;
+UNTIL Loop&gt;=QofSamples&#xD;
+END_REPEAT;&#xD;
+// Place le nouvel échantillon au premier rang&#xD;
+Samples[0]:=Measure;&#xD;
+Loop:=1;&#xD;
+Sum:=0.0;&#xD;
+REPEAT&#xD;
+	// Calcul la somme des échantillons&#xD;
+	Sum:=Sum+Samples[Loop-1];&#xD;
+	Loop:=Loop+1;&#xD;
+UNTIL Loop&gt;QofSamples&#xD;
+END_REPEAT;&#xD;
+// Calcul la moyenne&#xD;
+Result:=Sum/QofSamples;</Text></StructuredTextModel>

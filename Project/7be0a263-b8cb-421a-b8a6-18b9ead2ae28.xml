@@ -1,0 +1,22 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=Index	G=VAR
+++D=INT	N=State	G=VAR
+++D=BOOL	N=Init	G=VAR
+++D=UINT	N=Nb_Axes	G=VAR
+++D=UINT	N=Nb_Groupes	G=VAR
+++D=R_TRIG	N=Frm_Acquit	G=VAR
+++D=BOOL	N=Axis_Reset	G=VAR
+++D=BOOL	N=Group_Reset	G=VAR
+++D=MC_Reset	N=iFB_MC_Reset	G=VAR
+++D=MC_GroupReset	N=iFB_MC_ResetGroup	G=VAR
+++D=ResetMCError	N=iFB_ResetMC	G=VAR
+++D=ResetECError	N=iFB_ResetEC	G=VAR
+++D=ResetPLCError	N=iFB_ResetPlc	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=Reset	E=UpDirection	Ord=1	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..15] OF _sAXIS_REF	N=_MC_AX	Const=1	G=VAR_EXTERNAL
+++D=ARRAY[0..7] OF _sGROUP_REF	N=_MC_GRP	Const=1	G=VAR_EXTERNAL

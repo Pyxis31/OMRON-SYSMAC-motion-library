@@ -1,0 +1,21 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*  Calcule l'arc tangente (angle en rad)	*&#xD;
+*  d'un point [x,y] dans les 4 quadrants	*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+IF x&gt;0 THEN&#xD;
+	fAtan2:=ATAN(y/x);&#xD;
+ELSIF x&lt;0 AND y&gt;=0 THEN&#xD;
+	fAtan2:=ATAN(y/x)+PI;&#xD;
+ELSIF x&lt;0 AND y&lt;0 THEN&#xD;
+	fAtan2:=ATAN(y/x)-PI;&#xD;
+ELSIF x=0 AND y&gt;0 THEN&#xD;
+	fAtan2:=PI/2;&#xD;
+ELSIF x=0 AND y&lt;0 THEN&#xD;
+	fAtan2:=-PI/2;&#xD;
+ELSIF x=0 AND y=0 THEN&#xD;
+	fAtan2:=0.0; // Non défini&#xD;
+END_IF;&#xD;
+</Text></StructuredTextModel>

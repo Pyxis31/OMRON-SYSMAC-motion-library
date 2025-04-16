@@ -1,0 +1,13 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*		  			Calcule le nombre				*&#xD;
+*	 					de cycles cpu					*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+// Suivant le temps de cycle de la tâche principale&#xD;
+TaskPeriod_msec:= TimeToNanoSec(GetMyTaskInterval())/1000000;&#xD;
+&#xD;
+// Suivant le temps du mouvement en secondes&#xD;
+fTicksQCalc:=LREAL_TO_LINT(TimeMvt*1000)/TaskPeriod_msec;&#xD;
+</Text></StructuredTextModel>

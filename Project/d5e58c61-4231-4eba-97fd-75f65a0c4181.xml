@@ -1,0 +1,102 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=MC_SyncMoveAbsolute	N=FBi_SyncMov	G=VAR
+++D=MC_Stop	N=FBi_SyncStop	G=VAR
+++D=MC_SetPosition	N=FBe_SetPosition	G=VAR
+++D=MC_Home	N=FBe_Home	G=VAR
+++D=MC_GearIn	N=FBe_GearIn	G=VAR
+++D=MC_GearOut	N=FBe_GearOut	G=VAR
+++D=MC_SetTorqueLimit	N=FBe_SetTorqueLimit	G=VAR
+++D=MC_SyncMoveVelocity	N=FBi_SyncMovVel	G=VAR
+++D=MC_ReadAxisParameter	N=FBi_ReadAxisMasterParam	G=VAR
+++D=MC_ReadAxisParameter	N=FBi_ReadAxisSlaveParam	G=VAR
+++D=MC_Power	N=FBe_Power	G=VAR
+++D=R_TRIG	N=Edge1	G=VAR
+++D=R_TRIG	N=Edge2	G=VAR
+++D=R_TRIG	N=Edge3	G=VAR
+++D=R_TRIG	N=Edge4	G=VAR
+++D=R_TRIG	N=Edge5	G=VAR
+++D=R_TRIG	N=Edge6	G=VAR
+++D=R_TRIG	N=Edge10	G=VAR
+++D=R_TRIG	N=Edge11	G=VAR
+++D=nsAxisControl\eTypeOfCmd	N=TypeOfCmd	G=VAR
+++D=LREAL	N=TargetDist	G=VAR
+++D=BOOL	N=UpExecMvt	G=VAR
+++D=BOOL	N=UpExecTrack	G=VAR
+++D=BOOL	N=UpExecCam	G=VAR
+++D=BOOL	N=UpCancelTrack	G=VAR
+++D=INT	N=Phase	G=VAR
+++D=LINT	N=Tick	G=VAR
+++D=LINT	N=TicksQ	G=VAR
+++D=LREAL	N=Offset	G=VAR
+++D=LREAL	N=x	G=VAR
+++D=LREAL	N=v0	G=VAR	Com=Vitesse initiale
+++D=LREAL	N=v1	G=VAR	Com=Vitesse finale
+++D=LREAL	N=DistStop	G=VAR
+++D=BOOL	N=UpCancelCam	G=VAR
+++D=LREAL	N=MasterDistDone	G=VAR
+++D=LREAL	N=a1	G=VAR
+++D=LREAL	N=a0	G=VAR
+++D=MC_MoveJog	N=FBe_MovJog	G=VAR
+++D=LREAL	N=MemPosAxis	G=VAR
+++D=_sAXIS_PARAM	N=ReadAxisMasterPParam	G=VAR
+++D=_sAXIS_PARAM	N=ReadAxisSlavePParam	G=VAR
+++D=BOOL	N=CamSettingError	G=VAR
+++D=INT	N=NodesNbMax	G=VAR
+++D=INT	N=Loop	G=VAR
+++D=LREAL	N=X0	G=VAR
+++D=LREAL	N=X1	G=VAR
+++D=LREAL	N=Y0	G=VAR
+++D=LREAL	N=Y1	G=VAR
+++D=nsAxisControl\eCurveType	N=SegmentPolyType	G=VAR
+++D=LREAL	N=MasterDist	G=VAR
+++D=INT	N=SegmentsNb	G=VAR
+++D=INT	N=NodesNb	G=VAR
+++D=BOOL	N=UpWarmStartPosReq	G=VAR
+++D=BOOL	N=WarmStartCalculation	G=VAR
+++D=LREAL	N=v1CamSetting	G=VAR
+++D=LREAL	N=v0CamSetting	G=VAR
+++D=LREAL	N=a0CamSetting	G=VAR
+++D=LREAL	N=a1CamSetting	G=VAR
+++D=INT	N=ScannedSeg	G=VAR
+++D=BOOL	N=SetPositionErr	G=VAR
+++D=WORD	N=SetPositionErrID	G=VAR
+++D=INT	N=CurrentProfile	IV=0	G=VAR
+++D=INT	N=ProfilesNb	G=VAR
+++D=INT	N=ProfilesNbMax	G=VAR
+++D=BOOL	N=UpCamBeginning	G=VAR
+++D=STRING[50]	N=CamSettingErrorType	G=VAR
+++D=LREAL	N=Gen	G=VAR
+++D=LREAL	N=Conveyor_Pos	G=VAR
+++D=LREAL	N=TaskPeriod_msec_LREAL	G=VAR
+++D=LREAL	N=MasterPosition	G=VAR
+++D=LINT	N=TickSetT_In	G=VAR
+++D=LINT	N=TickSetT_Out	G=VAR
+++D=INT	N=memSegmentNb	G=VAR
+++D=LREAL	N=memPosition	G=VAR
+++D=LREAL	N=SlaveMinPos	G=VAR
+++D=LREAL	N=SlaveMaxPos	G=VAR
+++D=_eMC_COUNT_MODE	N=SlaveCountMode	G=VAR
+++D=LREAL	N=MasterModulo	G=VAR
+++D=TON	N=ReadAxisDelay	G=VAR
+++D=LREAL	N=SlaveModulo	G=VAR
+++D=INT	N=CurrentSegment	G=VAR
+++D=LREAL	N=CmdPos	G=VAR
+++D=LREAL	N=TargetSpeed	G=VAR
+++D=FB_dx_Codeur_V2	N=FBi_dx	G=VAR
+++D=LREAL	N=MasterMinPos	G=VAR
+++D=LREAL	N=MasterMaxPos	G=VAR
+++D=LREAL	N=dx	G=VAR
+++D=LREAL	N=MemSpeedAxis	G=VAR
+++D=LREAL	N=MemActPos	G=VAR
+++D=TON	N=TrackStopDelay	G=VAR
+++D=BOOL	N=UpMasterModulo	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Reset	Ord=0	G=VAR_INPUT
+++D=BOOL	N=ExternalError	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Error	Ord=2	G=VAR_OUTPUT
+++D=_sAXIS_REF	N=Axis	Ord=3	Const=1	G=VAR_IN_OUT
+++D=nsAxisControl\stAxisControl	N=IO	Ord=4	G=VAR_IN_OUT
+++D=STRING[80]	N=ErrorMsg	Ord=5	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,24 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*		  Calcule le temps nécessaire			*&#xD;
+*	 pour effectuer un trajet avec une		*&#xD;
+*		  accélération ou une vitesse			*&#xD;
+*				  maximale définie					*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+&#xD;
+CASE CurveType OF&#xD;
+	&#xD;
+	Poly3 :&#xD;
+	// Amax exprimée en unité/sec2&#xD;
+	TimeAtAmax:=SQRT(6*Distance/Amax);&#xD;
+	// Vmax exprimée en unité/sec&#xD;
+	TimeAtVmax:=1.5*Distance/Vmax;&#xD;
+	&#xD;
+	Poly5 :&#xD;
+	TimeAtAmax:=SQRT(5.8*Distance/Amax);&#xD;
+	TimeAtVmax:=1.9*Distance/Vmax;&#xD;
+&#xD;
+END_CASE;&#xD;
+</Text></StructuredTextModel>

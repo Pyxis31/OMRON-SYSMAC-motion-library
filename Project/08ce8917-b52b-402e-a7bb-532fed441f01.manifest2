@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="Infinity" />
+  <Solution solutionName="OEEF_FS_lib_1_3_11" id="08ce8917-b52b-402e-a7bb-532fed441f01" trackingId="780a4664-8702-4003-b0af-8c2071832ad7" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="V102Project" />
+      <ApplicationFeature name="SetUnit NX1P2-1040DT1 Ver. 1.64" />
+      <ApplicationFeature name="NexLibraryInternalUsed" />
+      <ApplicationFeature name="ControllerDataProtectVer.2.1" />
+      <ApplicationFeature name="CamDataProtectVer.2.0" />
+      <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>

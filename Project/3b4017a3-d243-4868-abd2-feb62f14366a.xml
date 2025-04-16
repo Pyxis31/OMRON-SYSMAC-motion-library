@@ -1,0 +1,16 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*		  				Polynôme 3						*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+// Coéficients &#xD;
+a:=-2.0+v0+v1;&#xD;
+b:=3.0-2.0*v0-v1;&#xD;
+c:=v0;&#xD;
+d:=Offset;&#xD;
+K:=TargetDist;&#xD;
+&#xD;
+// Position=ax3+bx2+cx+d&#xD;
+fPoly3:=d+(K*(a*(x**3)+b*(x**2)+c*x));&#xD;
+</Text></StructuredTextModel>
