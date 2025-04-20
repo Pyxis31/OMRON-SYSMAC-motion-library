@@ -88,14 +88,18 @@ _EN=Variables
 ++D=LREAL	N=MasterMinPos	G=VAR
 ++D=LREAL	N=MasterMaxPos	G=VAR
 ++D=LREAL	N=dx	G=VAR
-++D=LREAL	N=dx1	G=VAR
-++D=LREAL	N=dy1	G=VAR
-++D=LREAL	N=dx2	G=VAR
-++D=LREAL	N=dy2	G=VAR
+++D=LREAL	N=dx1_starting	G=VAR
+++D=LREAL	N=dy1_starting	G=VAR
+++D=LREAL	N=dx2_starting	G=VAR
+++D=LREAL	N=dy2_starting	G=VAR
 ++D=LREAL	N=MemSpeedAxis	G=VAR
 ++D=LREAL	N=MemActPos	G=VAR
 ++D=TON	N=TrackStopDelay	G=VAR
 ++D=BOOL	N=UpMasterModulo	G=VAR
+++D=LREAL	N=dx1_ending	G=VAR
+++D=LREAL	N=dy1_ending	G=VAR
+++D=LREAL	N=dx2_ending	G=VAR
+++D=LREAL	N=dy2_ending	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Reset	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=ExternalError	Ord=1	G=VAR_INPUT
