@@ -100,6 +100,12 @@ _EN=Variables
 ++D=LREAL	N=dy1_ending	G=VAR
 ++D=LREAL	N=dx2_ending	G=VAR
 ++D=LREAL	N=dy2_ending	G=VAR
+++D=INT	N=NodeA_starting	G=VAR
+++D=INT	N=NodeB_starting	G=VAR
+++D=INT	N=NodeC_starting	G=VAR
+++D=INT	N=NodeA_ending	G=VAR
+++D=INT	N=NodeB_ending	G=VAR
+++D=INT	N=NodeC_ending	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Reset	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=ExternalError	Ord=1	G=VAR_INPUT
