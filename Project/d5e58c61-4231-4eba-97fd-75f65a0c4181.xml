@@ -18,8 +18,6 @@ _EN=Variables
 ++D=R_TRIG	N=Edge4	G=VAR
 ++D=R_TRIG	N=Edge5	G=VAR
 ++D=R_TRIG	N=Edge6	G=VAR
-++D=R_TRIG	N=Edge10	G=VAR
-++D=R_TRIG	N=Edge11	G=VAR
 ++D=nsAxisControl\eTypeOfCmd	N=TypeOfCmd	G=VAR
 ++D=LREAL	N=TargetDist	G=VAR
 ++D=BOOL	N=UpExecMvt	G=VAR
