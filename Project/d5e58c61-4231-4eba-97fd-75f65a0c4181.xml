@@ -104,6 +104,9 @@ _EN=Variables
 ++D=INT	N=NodeA_ending	G=VAR
 ++D=INT	N=NodeB_ending	G=VAR
 ++D=INT	N=NodeC_ending	G=VAR
+++D=BOOL	N=Nan	G=VAR
+++D=BOOL	N=PosInfinite	G=VAR
+++D=BOOL	N=NegInfinite	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Reset	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=ExternalError	Ord=1	G=VAR_INPUT
