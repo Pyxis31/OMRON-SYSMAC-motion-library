@@ -5,6 +5,6 @@ A library for tracking a mobile : slave starting from null speed and tracking a 
 
 A library for simple polynomial moves (instead of MC_MOVE) for achieving synchronised movements (made by distance + time). With starting and ending edges of moves, settled by timers, to chain movements and so that create for instance, corners on XY trajectory (XY table).
 
-And finally, some standard PLCopen function blocs embedded within the library for simplifying the application writing code.
+And finally, some standard PLCopen function blocs embedded for simplifying the application writing code.
 
 ![cames](https://github.com/user-attachments/assets/b9ffd2e1-940d-4736-a3a2-d0897918b95e)
