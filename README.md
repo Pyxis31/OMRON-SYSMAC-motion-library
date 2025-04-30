@@ -3,7 +3,7 @@ A library to manage real time cams with multiple segments and multiple profiles 
 
 A library for tracking a mobile : slave starting from null speed and tracking a master in continuous movement (ex. a conveyor).
 
-A library for simple polynomial moves (instead of MC_MOVE) for achieving synchronised movements (made by distance + time). With starting and Ending Edges of moves, settled by timers, to chain movements and so that create for instance, corners on XY trajectory (XY table).
+A library for simple polynomial moves (instead of MC_MOVE) for achieving synchronised movements (made by distance + time). With starting and ending edges of moves, settled by timers, to chain movements and so that create for instance, corners on XY trajectory (XY table).
 
 A finally, some standard PLCopen function blocs embedded within the library for simplifying the application writing code.
 
