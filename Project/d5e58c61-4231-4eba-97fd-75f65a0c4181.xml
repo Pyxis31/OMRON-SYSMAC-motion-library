@@ -8,6 +8,7 @@ _EN=Variables
 ++D=MC_GearIn	N=FBe_GearIn	G=VAR
 ++D=MC_GearOut	N=FBe_GearOut	G=VAR
 ++D=MC_SetTorqueLimit	N=FBe_SetTorqueLimit	G=VAR
+++D=MC_SetOverride	N=FBe_SetOverride	G=VAR
 ++D=MC_SyncMoveVelocity	N=FBi_SyncMovVel	G=VAR
 ++D=MC_ReadAxisParameter	N=FBi_ReadAxisMasterParam	G=VAR
 ++D=MC_ReadAxisParameter	N=FBi_ReadAxisSlaveParam	G=VAR

@@ -402,9 +402,9 @@
               <Entity type="Group" subtype="IecFunctionBlocks" id="1dbbc753-5a89-4f70-ab27-c7872132ee7c" name="Blocs de fonctions" version="0" dateCreated="07/12/2019 14:33:44" trackingId="78321d44-b1ef-4f42-9585-8b154b968e1b" DN="Function Blocks">
                 <AccessInfos />
                 <ChildEntities>
-                  <Entity type="FunctionBlock" subtype="StructuredText" id="da86dc0f-c2a7-4131-b677-4999f649159b" name="AxisControl" version="0" dateCreated="03/25/2016 10:00:56" dateLastModified="04/29/2025 17:38:38" label="1.0.0" author="simfra" comment="- Cam on fly (multi-profiles)&#xD;&#xA;- Warm start&#xD;&#xA;- Polynomial moves&#xD;&#xA;- Conveyor tracking&#xD;&#xA;- Blending (T_In &amp; T_Out)&#xD;&#xA;- Some standard PLCopen FB embedded&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" usingNamespaces="nsAxisControl&#xD;&#xA;" trackingId="b69dba6d-775a-4b0c-b35c-1adda688991a" DN="AxisControl">
+                  <Entity type="FunctionBlock" subtype="StructuredText" id="da86dc0f-c2a7-4131-b677-4999f649159b" name="AxisControl" version="0" dateCreated="03/25/2016 10:00:56" dateLastModified="05/12/2025 18:46:44" label="1.0.0" author="simfra" comment="- Cam on fly (multi-profiles)&#xD;&#xA;- Warm start&#xD;&#xA;- Polynomial moves&#xD;&#xA;- Conveyor tracking&#xD;&#xA;- Blending (T_In &amp; T_Out)&#xD;&#xA;- Some standard PLCopen FB embedded&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" usingNamespaces="nsAxisControl&#xD;&#xA;" trackingId="b69dba6d-775a-4b0c-b35c-1adda688991a" DN="AxisControl">
                     <ChildEntities>
-                      <Entity type="Variables" subtype="StructuredTextFunctionBlock" id="d5e58c61-4231-4eba-97fd-75f65a0c4181" name="Variables" version="0" dateCreated="03/25/2016 10:00:56" dateLastModified="04/29/2025 17:31:48" trackingId="885d1e9e-6312-481b-9724-2421d56c5083" hash="0af1b7161ae947418ebadce04e07b70d">
+                      <Entity type="Variables" subtype="StructuredTextFunctionBlock" id="d5e58c61-4231-4eba-97fd-75f65a0c4181" name="Variables" version="0" dateCreated="03/25/2016 10:00:56" dateLastModified="05/12/2025 18:46:44" trackingId="885d1e9e-6312-481b-9724-2421d56c5083" hash="4e4f5ad7c67e016e03814bb960f45db1">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="PouIFLibraryHolder" subtype="" id="aefce74e-6250-4854-91ed-12c888d8ccfd" name="PouIFLibrary" version="NaN" dateCreated="03/25/2016 10:00:56" trackingId="eb6cf534-364a-4d09-bfd3-f692f5cef13a">
@@ -417,7 +417,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="StructuredText" id="91fb3da3-7f77-4c4c-9e06-1f2a1753616a" name="Corps du programme" version="0.2" dateCreated="03/25/2016 10:00:56" dateLastModified="04/29/2025 17:38:38" trackingId="cfcaae7e-1b3e-416f-b83f-757b239ebe22" hash="0726019f92ebd6c6e8d8deca961f5fb4">
+                      <Entity type="PouBody" subtype="StructuredText" id="91fb3da3-7f77-4c4c-9e06-1f2a1753616a" name="Corps du programme" version="0.2" dateCreated="03/25/2016 10:00:56" dateLastModified="05/12/2025 18:46:44" trackingId="cfcaae7e-1b3e-416f-b83f-757b239ebe22" hash="7a4dfbd6ff027398bee33eb36cf71906">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="0fec6d84-c58f-4b4b-958d-b1cba582ebc6" name="Source" version="0" dateCreated="03/25/2016 10:00:56" trackingId="4e50b68d-cb70-4234-bb48-ec0107de8ef1">
@@ -589,7 +589,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="DataType" subtype="" id="0b4f2771-2db4-4cc5-8c72-8aa4262c9bc4" name="Types de données0" version="0" dateCreated="07/12/2019 14:34:29" dateLastModified="04/28/2025 09:59:36" namespace="nsAxisControl" trackingId="e9de27c4-c7e0-4678-9f95-e847c8bc6955" hash="11498ddbb21ecae76830191493893a87">
+              <Entity type="DataType" subtype="" id="0b4f2771-2db4-4cc5-8c72-8aa4262c9bc4" name="Types de données0" version="0" dateCreated="07/12/2019 14:34:29" dateLastModified="05/12/2025 18:46:44" namespace="nsAxisControl" trackingId="e9de27c4-c7e0-4678-9f95-e847c8bc6955" hash="11c66e34889c8959519eb4c09f1047f1">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="054fe2b6-983c-4684-9418-91d926c9bf40" name="Source" version="0" dateCreated="07/12/2019 14:34:29" trackingId="9007fa1c-9218-488f-bb52-1512d0b6d175">
