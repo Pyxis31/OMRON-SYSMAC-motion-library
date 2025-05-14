@@ -27,7 +27,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NJ501" id="aa703576-e9b1-4c66-968e-91b1b6f6baee" name="new_Controller_0" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="04/16/2025 10:48:25" trackingId="bbc0fbd3-1668-4bc2-ad9a-3b09873878ce" hash="d2c8a630dd610cdd238eb8875eda13d4" DHS="e4520d411241f8fa4ca7f093a52aad5a" TH="8858bdb07943ba74e09f9797c291add6">
+      <Entity type="Device" subtype="NJ501" id="aa703576-e9b1-4c66-968e-91b1b6f6baee" name="new_Controller_0" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="04/16/2025 10:48:25" trackingId="bbc0fbd3-1668-4bc2-ad9a-3b09873878ce" hash="d2c8a630dd610cdd238eb8875eda13d4" DHS="29e17570f708e4862ba7d7f2ed39c805" TH="eb8d12372c2f1c01e4d2780cb4ec5bc3">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="ab574db9-8421-4600-880a-fee4e1376282" name="Surveiller" version="0" dateCreated="07/12/2019 14:33:44" trackingId="418d1ea1-899c-4106-b984-a99e2737f3cb">
@@ -560,7 +560,7 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="StructuredText" id="1076111f-94cb-4698-889f-6f6bbd7b47c0" name="FB_Ramp" version="0" dateCreated="05/13/2025 15:30:21" dateLastModified="05/14/2025 17:32:01" author="simfra" trackingId="36cadcf8-2247-4645-afe2-c253529a8f8c" DN="FB_Ramp">
+                  <Entity type="FunctionBlock" subtype="StructuredText" id="1076111f-94cb-4698-889f-6f6bbd7b47c0" name="FB_Ramp" version="0" dateCreated="05/13/2025 15:30:21" dateLastModified="05/14/2025 17:49:05" label="1.0.0" author="simfra" comment="A bloc for ramping up or down a value smoothly. Avoid rough setting change." trackingId="36cadcf8-2247-4645-afe2-c253529a8f8c" DN="FB_Ramp">
                     <ChildEntities>
                       <Entity type="Variables" subtype="StructuredTextFunctionBlock" id="3bd9077b-d4ec-4a6d-b19d-dc70c8318d84" name="Variables" version="0" dateCreated="05/13/2025 15:30:21" dateLastModified="05/14/2025 17:32:01" trackingId="b39961af-08b4-42db-ae5c-b3afd2f9e214" hash="ebc74acfe125190c9f5383edb4cfb229">
                         <AccessInfos />
@@ -644,7 +644,7 @@
               </Entity>
             </ChildEntities>
           </Entity>
-          <Entity type="ReferredLibraries" subtype="Nex" id="33d0f460-dab8-4da5-a8fb-144d6548314f" name="Library" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="05/14/2025 17:32:01" trackingId="1f53a3c0-357c-486e-8f86-74bd7abe11cd" hash="2629673a33bfc47d78709afa153c65ea">
+          <Entity type="ReferredLibraries" subtype="Nex" id="33d0f460-dab8-4da5-a8fb-144d6548314f" name="Library" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="05/14/2025 17:49:05" trackingId="1f53a3c0-357c-486e-8f86-74bd7abe11cd" hash="eb9a1f0bd6f6d8011f70bd9b5d2f00b5">
             <AccessInfos />
             <ChildEntities />
           </Entity>
