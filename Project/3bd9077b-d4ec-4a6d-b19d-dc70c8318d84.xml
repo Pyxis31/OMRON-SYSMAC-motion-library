@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=LREAL	N=dx	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=LREAL	N=TargetPosition	Ord=1	G=VAR_INPUT
+++D=LREAL	N=Pitch	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Force_Zero	Ord=3	G=VAR_IN_OUT
+++D=BOOL	N=Force_Target	Ord=4	G=VAR_IN_OUT
+++D=BOOL	N=Match	Ord=5	G=VAR_OUTPUT
+++D=LREAL	N=SlidePos	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
