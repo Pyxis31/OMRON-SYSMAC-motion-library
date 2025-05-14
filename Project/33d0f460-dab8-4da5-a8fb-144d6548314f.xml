@@ -8,14 +8,15 @@
           <LibraryModel>
             <Name>OEEF_FS_lib_VC</Name>
             <NameSpace></NameSpace>
-            <Version>..</Version>
+            <Version>2.0.0</Version>
             <Revision>1</Revision>
-            <LibraryId>ee87a14f-b295-418c-a5a5-376c078a9f9a</LibraryId>
+            <LibraryId>3b975b5e-85f9-41eb-8a33-14cf10dee7a4</LibraryId>
             <Author>simfra</Author>
             <Company>OEEF</Company>
             <DateCreated>2019-07-12T14:33:44.6529232+02:00</DateCreated>
-            <DateModified>2025-05-14T17:49:03.9889852+02:00</DateModified>
-            <Comment></Comment>
+            <DateModified>2025-05-14T18:12:46.801182+02:00</DateModified>
+            <Comment>Version Controlled library.
+Please see https://github.com/Pyxis31 for changes.</Comment>
             <Password></Password>
             <AttachedFiles />
             <AttachedFilesRelativePaths />
