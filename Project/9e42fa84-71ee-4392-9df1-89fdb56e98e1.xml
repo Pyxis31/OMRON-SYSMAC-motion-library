@@ -3,7 +3,7 @@ _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=LREAL	N=Delta_X_Filtered	G=VAR
 ++D=LREAL	N=Delta_X	G=VAR
-++D=FB_dx_Codeur_V2	N=FB_dx_Encoder	G=VAR
+++D=dx_Codeur_V2	N=FB_dx_Encoder	G=VAR
 ++D=AverageFilter	N=FB_AverageFilter	G=VAR
 ++D=LREAL	N=Position	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup

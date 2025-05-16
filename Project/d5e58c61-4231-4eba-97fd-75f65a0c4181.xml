@@ -83,7 +83,7 @@ _EN=Variables
 ++D=INT	N=CurrentSegment	G=VAR
 ++D=LREAL	N=CmdPos	G=VAR
 ++D=LREAL	N=TargetSpeed	G=VAR
-++D=FB_dx_Codeur_V2	N=FBi_dx	G=VAR
+++D=dx_Codeur_V2	N=FBi_dx	G=VAR
 ++D=LREAL	N=MasterMinPos	G=VAR
 ++D=LREAL	N=MasterMaxPos	G=VAR
 ++D=LREAL	N=dx	G=VAR
