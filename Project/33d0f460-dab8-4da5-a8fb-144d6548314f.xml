@@ -10,11 +10,11 @@
             <NameSpace></NameSpace>
             <Version>2.0.0</Version>
             <Revision>1</Revision>
-            <LibraryId>3b975b5e-85f9-41eb-8a33-14cf10dee7a4</LibraryId>
+            <LibraryId>38e3b91e-dbf6-478c-96db-45c5f31875b0</LibraryId>
             <Author>simfra</Author>
             <Company>OEEF</Company>
             <DateCreated>2019-07-12T14:33:44.6529232+02:00</DateCreated>
-            <DateModified>2025-05-14T18:12:46.801182+02:00</DateModified>
+            <DateModified>2025-05-16T15:31:16.4273511+02:00</DateModified>
             <Comment>Version Controlled library.
 Please see https://github.com/Pyxis31 for changes.</Comment>
             <Password></Password>
