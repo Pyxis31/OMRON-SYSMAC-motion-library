@@ -27,7 +27,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NJ501" id="aa703576-e9b1-4c66-968e-91b1b6f6baee" name="new_Controller_0" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="04/16/2025 10:48:25" trackingId="bbc0fbd3-1668-4bc2-ad9a-3b09873878ce" hash="d2c8a630dd610cdd238eb8875eda13d4" DHS="5420314fdf20d59043c04e755d01ad89" TH="5952a6cf1310bae848b3956f3a7dcd82">
+      <Entity type="Device" subtype="NJ501" id="aa703576-e9b1-4c66-968e-91b1b6f6baee" name="new_Controller_0" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="04/16/2025 10:48:25" trackingId="bbc0fbd3-1668-4bc2-ad9a-3b09873878ce" hash="d2c8a630dd610cdd238eb8875eda13d4" DHS="6748f817aecc605d5fcc2612cb54fdf8" TH="d393d7869a076c86a08d3b7d5a6bacb4">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="ab574db9-8421-4600-880a-fee4e1376282" name="Surveiller" version="0" dateCreated="07/12/2019 14:33:44" trackingId="418d1ea1-899c-4106-b984-a99e2737f3cb">
@@ -402,7 +402,7 @@
               <Entity type="Group" subtype="IecFunctionBlocks" id="1dbbc753-5a89-4f70-ab27-c7872132ee7c" name="Blocs de fonctions" version="0" dateCreated="07/12/2019 14:33:44" trackingId="78321d44-b1ef-4f42-9585-8b154b968e1b" DN="Blocs de fonctions">
                 <AccessInfos />
                 <ChildEntities>
-                  <Entity type="FunctionBlock" subtype="StructuredText" id="da86dc0f-c2a7-4131-b677-4999f649159b" name="AxisControl" version="0" dateCreated="03/25/2016 10:00:56" dateLastModified="07/31/2025 17:58:36" label="1.0.0" author="simfra" comment="- Cam on fly (multi-profiles)&#xD;&#xA;- Warm start&#xD;&#xA;- Polynomial moves&#xD;&#xA;- Conveyor tracking&#xD;&#xA;- Blending (T_In &amp; T_Out)&#xD;&#xA;- Some standard PLCopen FB embedded&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" namespace="nsAxisControl" usingNamespaces="nsAxisControl&#xD;&#xA;" trackingId="b69dba6d-775a-4b0c-b35c-1adda688991a" DN="AxisControl {nsAxisControl}">
+                  <Entity type="FunctionBlock" subtype="StructuredText" id="da86dc0f-c2a7-4131-b677-4999f649159b" name="AxisControl" version="0" dateCreated="03/25/2016 10:00:56" dateLastModified="09/09/2025 10:26:20" label="1.0.0" author="simfra" comment="- Cam on fly (multi-profiles)&#xD;&#xA;- Warm start&#xD;&#xA;- Polynomial moves&#xD;&#xA;- Conveyor tracking&#xD;&#xA;- Blending (T_In &amp; T_Out)&#xD;&#xA;- Some standard PLCopen FB embedded&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" namespace="nsAxisControl" usingNamespaces="nsAxisControl&#xD;&#xA;" trackingId="b69dba6d-775a-4b0c-b35c-1adda688991a" DN="AxisControl {nsAxisControl}">
                     <ChildEntities>
                       <Entity type="Variables" subtype="StructuredTextFunctionBlock" id="d5e58c61-4231-4eba-97fd-75f65a0c4181" name="Variables" version="0" dateCreated="03/25/2016 10:00:56" dateLastModified="05/16/2025 15:26:14" trackingId="885d1e9e-6312-481b-9724-2421d56c5083" hash="7ddecb86cd0e36412cba20704ad0cf8a">
                         <AccessInfos />
@@ -417,7 +417,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="StructuredText" id="91fb3da3-7f77-4c4c-9e06-1f2a1753616a" name="Corps du programme" version="0.2" dateCreated="03/25/2016 10:00:56" dateLastModified="06/23/2025 13:11:06" trackingId="cfcaae7e-1b3e-416f-b83f-757b239ebe22" hash="8097ce85797618323c2b30a0eb75549b">
+                      <Entity type="PouBody" subtype="StructuredText" id="91fb3da3-7f77-4c4c-9e06-1f2a1753616a" name="Corps du programme" version="0.2" dateCreated="03/25/2016 10:00:56" dateLastModified="09/09/2025 10:26:20" trackingId="cfcaae7e-1b3e-416f-b83f-757b239ebe22" hash="354b442c5be46904029466416bde11ed">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="0fec6d84-c58f-4b4b-958d-b1cba582ebc6" name="Source" version="0" dateCreated="03/25/2016 10:00:56" trackingId="4e50b68d-cb70-4234-bb48-ec0107de8ef1">
@@ -686,7 +686,7 @@
               </Entity>
             </ChildEntities>
           </Entity>
-          <Entity type="ReferredLibraries" subtype="Nex" id="33d0f460-dab8-4da5-a8fb-144d6548314f" name="Library" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="09/06/2025 13:37:30" trackingId="1f53a3c0-357c-486e-8f86-74bd7abe11cd" hash="965b5b34fedee9177717241ced176539">
+          <Entity type="ReferredLibraries" subtype="Nex" id="33d0f460-dab8-4da5-a8fb-144d6548314f" name="Library" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="09/09/2025 10:26:20" trackingId="1f53a3c0-357c-486e-8f86-74bd7abe11cd" hash="a533926c8f325cda6b1b4c7b7b423548">
             <AccessInfos />
             <ChildEntities />
           </Entity>
