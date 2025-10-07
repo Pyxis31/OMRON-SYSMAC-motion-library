@@ -27,7 +27,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="NJ501" id="aa703576-e9b1-4c66-968e-91b1b6f6baee" name="new_Controller_0" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="04/16/2025 10:48:25" trackingId="bbc0fbd3-1668-4bc2-ad9a-3b09873878ce" hash="d2c8a630dd610cdd238eb8875eda13d4" DHS="fd32bae28371077b59571dbbe4fab24b" TH="a937c2be3b53cc7443cb8bd62e373d27">
+      <Entity type="Device" subtype="NJ501" id="aa703576-e9b1-4c66-968e-91b1b6f6baee" name="new_Controller_0" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="04/16/2025 10:48:25" trackingId="bbc0fbd3-1668-4bc2-ad9a-3b09873878ce" hash="d2c8a630dd610cdd238eb8875eda13d4" DHS="d364acbe0f0877320bf62e0d68540774" TH="76a13ccff5f76d2cb5b80e34f34ccef6">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="ab574db9-8421-4600-880a-fee4e1376282" name="Surveiller" version="0" dateCreated="07/12/2019 14:33:44" trackingId="418d1ea1-899c-4106-b984-a99e2737f3cb">
@@ -632,6 +632,44 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="d2b1d945-72b7-40eb-b028-d8c374c3d0b2" name="Axis_Brake_Release" version="0" dateCreated="02/08/2019 08:45:17" dateLastModified="10/07/2025 10:10:18" label="0.0.0" author="poigui" usingNamespaces="ns_Axis&#xD;&#xA;" trackingId="9a4b246f-0b23-46eb-8baa-acf7e16535c2" DN="Axis_Brake_Release">
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d111f341-a87f-4996-bc35-544e2e38cb88" name="Variables" version="0" dateCreated="02/08/2019 08:45:17" dateLastModified="10/07/2025 10:10:18" trackingId="f58091b3-af12-4dc5-8875-700c1f81996f" hash="50d698129f09735b82bd3194cc0c148b">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="7f2f1404-5f93-419f-a858-9b48a56e0d7c" name="PouIFLibrary" version="NaN" dateCreated="02/08/2019 08:45:17" trackingId="8e9f93d5-4fd7-4b17-b9a4-e997b35882a6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="f7740ac1-f76b-494e-a861-18ac9d07b98c" name="Source" version="0" dateCreated="02/08/2019 08:45:17" trackingId="75645f92-338d-4d9c-85ae-0402c1a98fac">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="b0f358b7-d218-4f8b-a120-79eaea79ae5c" name="LadderBody" version="0" dateCreated="02/08/2019 08:45:17" dateLastModified="10/07/2025 10:10:18" trackingId="ba5554fc-7329-4aed-9479-1fec6ce4d0f4" hash="646dff66bfaeb44472170245933551e7">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="ffffcace-ba96-4c0a-b3f2-f2c83f54438f" name="Source" version="0" dateCreated="02/08/2019 08:45:17" trackingId="10392e39-9dae-4473-91d4-32626e801f45">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="546bf703-8e00-424b-a414-29d440530d99" name="PouBodySourceHolder" version="0" dateCreated="02/08/2019 08:45:17" trackingId="b6259400-2c8b-4865-b19b-56f9538bba07">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="32b53019-b82c-4c44-a4cb-d7b2a7122b8f" name="c4b9932a-2273-4380-a6e9-7305e8068d4f" version="0" dateCreated="02/08/2019 08:47:18" dateLastModified="10/07/2025 10:10:18" trackingId="ed306faf-3e01-475f-84be-f2c90ff03eb4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="bbc3b4c8-f811-4c17-adfe-13f7d243264a" name="198eb1d3-05ee-41e6-8e7d-2ded49a2700d" version="0" dateCreated="02/08/2019 08:54:02" dateLastModified="10/07/2025 10:10:18" trackingId="79621684-c10f-4ff1-899a-b7c48c75315c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                 </ChildEntities>
               </Entity>
             </ChildEntities>
@@ -639,7 +677,7 @@
           <Entity type="Group" subtype="IecData" id="a30999e9-2666-43fd-8129-cb2dcefda91d" name="Données" version="0" dateCreated="07/12/2019 14:33:44" trackingId="724bdf78-d071-4544-85ad-854d4a8e4367" DN="Data">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="DataType" subtype="" id="e01b0cce-0aa0-4fdd-acfd-584c2fbb9a66" name="Types de données" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="04/16/2025 10:45:18" trackingId="3262d523-22df-4042-afcb-6b73a0f256ea" DN="Data Types" hash="f27bb25c86ebad40d29aad6ca8399fd9">
+              <Entity type="DataType" subtype="" id="e01b0cce-0aa0-4fdd-acfd-584c2fbb9a66" name="Types de données" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="10/07/2025 10:10:18" trackingId="3262d523-22df-4042-afcb-6b73a0f256ea" DN="Data Types" hash="ac4245ab7986402bf34f9783050474dc">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="fc862e00-947c-47e7-8bf3-7a10a2b8781c" name="Source" version="0" dateCreated="07/12/2019 14:33:44" trackingId="afa56bb4-5c51-469f-926a-9aa78b1ba0c2">
@@ -686,7 +724,7 @@
               </Entity>
             </ChildEntities>
           </Entity>
-          <Entity type="ReferredLibraries" subtype="Nex" id="33d0f460-dab8-4da5-a8fb-144d6548314f" name="Library" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="10/06/2025 17:36:59" trackingId="1f53a3c0-357c-486e-8f86-74bd7abe11cd" hash="3f49d099a28f3bfc6d8077d254ec7afb">
+          <Entity type="ReferredLibraries" subtype="Nex" id="33d0f460-dab8-4da5-a8fb-144d6548314f" name="Library" version="0" dateCreated="07/12/2019 14:33:44" dateLastModified="10/07/2025 10:10:18" trackingId="1f53a3c0-357c-486e-8f86-74bd7abe11cd" hash="111fc6c52ef64bb53f214464d842cfc4">
             <AccessInfos />
             <ChildEntities />
           </Entity>
