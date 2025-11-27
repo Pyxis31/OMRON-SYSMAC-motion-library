@@ -108,6 +108,7 @@ _EN=Variables
 ++D=BOOL	N=Nan	G=VAR
 ++D=BOOL	N=PosInfinite	G=VAR
 ++D=BOOL	N=NegInfinite	G=VAR
+++D=MC_Move	N=FBe_Move	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Reset	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=ExternalError	Ord=1	G=VAR_INPUT
