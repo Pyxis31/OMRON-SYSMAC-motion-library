@@ -10,16 +10,20 @@
             <NameSpace></NameSpace>
             <Version>2.0.0</Version>
             <Revision>1</Revision>
-            <LibraryId>c09db54f-c66a-4299-bbd7-b4b13d8aff99</LibraryId>
+            <LibraryId>aa722dc6-14a6-40aa-81d4-2a9082799fab</LibraryId>
             <Author>simfra</Author>
             <Company>OEEF</Company>
             <DateCreated>2019-07-12T14:33:44.6529232+02:00</DateCreated>
-            <DateModified>2025-11-27T10:31:27.93584+01:00</DateModified>
+            <DateModified>2026-02-27T10:00:56.0661681+01:00</DateModified>
             <Comment>Version Controlled library.
 Please see https://github.com/Pyxis31 for changes.</Comment>
             <Password></Password>
-            <AttachedFiles />
-            <AttachedFilesRelativePaths />
+            <AttachedFiles>
+              <AttachedFile>C:\OMRON\Data\Lib\OEEF_lib_FS\OEEF FSlib.pdf</AttachedFile>
+            </AttachedFiles>
+            <AttachedFilesRelativePaths>
+              <RelativePath>..\..\..\Lib\OEEF_lib_FS\OEEF FSlib.pdf</RelativePath>
+            </AttachedFilesRelativePaths>
             <PublicPartsNames />
             <InternalPartsNames />
             <BuildDevice>
@@ -45,7 +49,7 @@ Please see https://github.com/Pyxis31 for changes.</Comment>
             <AsOldVer>false</AsOldVer>
             <SchemaVersion>3</SchemaVersion>
             <Parameter1>false</Parameter1>
-            <ApplicationProductVersion>1.64.0.64008</ApplicationProductVersion>
+            <ApplicationProductVersion>1.65.0.64007</ApplicationProductVersion>
           </LibraryModel>
         </data>
       </BuildOption>
