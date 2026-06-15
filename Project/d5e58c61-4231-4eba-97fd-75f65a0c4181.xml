@@ -35,8 +35,8 @@ _EN=Variables
 ++D=LREAL	N=DistStop	G=VAR
 ++D=BOOL	N=UpCancelCam	G=VAR
 ++D=LREAL	N=MasterDistDone	G=VAR
-++D=LREAL	N=a1	G=VAR
-++D=LREAL	N=a0	G=VAR
+++D=LREAL	N=a1	IV=0.0	G=VAR
+++D=LREAL	N=a0	IV=0.0	G=VAR
 ++D=MC_MoveJog	N=FBe_MovJog	G=VAR
 ++D=LREAL	N=MemPosAxis	G=VAR
 ++D=_sAXIS_PARAM	N=ReadAxisMasterPParam	G=VAR
@@ -56,8 +56,8 @@ _EN=Variables
 ++D=BOOL	N=WarmStartCalculation	G=VAR
 ++D=LREAL	N=v1CamSetting	G=VAR
 ++D=LREAL	N=v0CamSetting	G=VAR
-++D=LREAL	N=a0CamSetting	G=VAR
-++D=LREAL	N=a1CamSetting	G=VAR
+++D=LREAL	N=a0CamSetting	IV=0.0	G=VAR
+++D=LREAL	N=a1CamSetting	IV=0.0	G=VAR
 ++D=INT	N=ScannedSeg	G=VAR
 ++D=BOOL	N=SetPositionErr	G=VAR
 ++D=WORD	N=SetPositionErrID	G=VAR
@@ -109,6 +109,10 @@ _EN=Variables
 ++D=BOOL	N=PosInfinite	G=VAR
 ++D=BOOL	N=NegInfinite	G=VAR
 ++D=MC_Move	N=FBe_Move	G=VAR
+++D=LREAL	N=j0	IV=0.0	G=VAR
+++D=LREAL	N=j1	IV=0.0	G=VAR
+++D=LREAL	N=j0CamSetting	IV=0.0	G=VAR
+++D=LREAL	N=j1CamSetting	IV=0.0	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Reset	Ord=0	G=VAR_INPUT
 ++D=BOOL	N=ExternalError	Ord=1	G=VAR_INPUT

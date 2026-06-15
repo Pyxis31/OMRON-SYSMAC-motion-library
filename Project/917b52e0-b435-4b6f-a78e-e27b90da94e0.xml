@@ -8,6 +8,7 @@ _EN=Variables
 ++D=LREAL	N=e	G=VAR
 ++D=LREAL	N=f	G=VAR
 ++D=LREAL	N=g	G=VAR
+++D=LREAL	N=h	G=VAR
 ++D=LREAL	N=K	G=VAR
 ++D=LREAL	N=xSq	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
@@ -19,11 +20,9 @@ _EN=Variables
 ++D=LREAL	N=a1	Ord=5	G=VAR_INPUT
 ++D=LREAL	N=j0	Ord=6	G=VAR_INPUT
 ++D=LREAL	N=j1	Ord=7	G=VAR_INPUT
-++D=LREAL	N=p0	Ord=8	G=VAR_INPUT
-++D=LREAL	N=p1	Ord=9	G=VAR_INPUT
-++D=LREAL	N=x	Ord=10	G=VAR_INPUT
-++D=LREAL	N=Offset	Ord=11	G=VAR_INPUT
-++D=LREAL	N=TargetDist	Ord=12	G=VAR_INPUT
+++D=LREAL	N=x	Ord=8	G=VAR_INPUT
+++D=LREAL	N=Offset	Ord=9	G=VAR_INPUT
+++D=LREAL	N=TargetDist	Ord=10	G=VAR_INPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 +GN=RETURN	GA=Return	GVT=ReturnGroup
 ++D=LREAL	N=fPoly7	G=RETURN
