@@ -10,11 +10,11 @@
             <NameSpace></NameSpace>
             <Version>2.0.0</Version>
             <Revision>1</Revision>
-            <LibraryId>aa722dc6-14a6-40aa-81d4-2a9082799fab</LibraryId>
+            <LibraryId>278a5cc4-2725-41bc-b7df-023733d17d8b</LibraryId>
             <Author>simfra</Author>
             <Company>OEEF</Company>
             <DateCreated>2019-07-12T14:33:44.6529232+02:00</DateCreated>
-            <DateModified>2026-02-27T10:00:56.0661681+01:00</DateModified>
+            <DateModified>2026-06-15T10:22:47.7826374+02:00</DateModified>
             <Comment>Version Controlled library.
 Please see https://github.com/Pyxis31 for changes.</Comment>
             <Password></Password>
@@ -49,7 +49,7 @@ Please see https://github.com/Pyxis31 for changes.</Comment>
             <AsOldVer>false</AsOldVer>
             <SchemaVersion>3</SchemaVersion>
             <Parameter1>false</Parameter1>
-            <ApplicationProductVersion>1.65.0.64007</ApplicationProductVersion>
+            <ApplicationProductVersion>1.66.0.64007</ApplicationProductVersion>
           </LibraryModel>
         </data>
       </BuildOption>
@@ -59,9 +59,10 @@ Please see https://github.com/Pyxis31 for changes.</Comment>
       </ExcludedParts>
       <InternalParts>
         <InternalPart>87e668e1-99a1-45c9-9468-25079eaf1f29</InternalPart>
-        <InternalPart>ef284817-cff6-4729-a020-4f55f6d98b32</InternalPart>
-        <InternalPart>1f0c35d4-ff8a-4611-9813-b77f0243d4ca</InternalPart>
         <InternalPart>db1b2b00-af00-48c8-bc1e-ccb8fec9af6e</InternalPart>
+        <InternalPart>1f0c35d4-ff8a-4611-9813-b77f0243d4ca</InternalPart>
+        <InternalPart>ef284817-cff6-4729-a020-4f55f6d98b32</InternalPart>
+        <InternalPart>c6aae11a-71b2-4287-a236-b6f49313328e</InternalPart>
       </InternalParts>
       <LibraryTrackingIdConversionTable>
         <LibraryEntityTrackingId>9d4bedf4-14b5-470d-867d-2713f4327faf</LibraryEntityTrackingId>
@@ -91,20 +92,6 @@ Please see https://github.com/Pyxis31 for changes.</Comment>
           <ConversionItem Id="e26041f4-078e-4118-b5a4-1a02a7414dc4" NewId="f827e0d5-8e91-4915-93df-4fdfe8007e1e" />
           <ConversionItem Id="5331c2bf-d3f8-4d1c-b4d7-6446cd584b9d" NewId="175c6ce2-74e9-4eae-90e9-b63d309801f9" />
           <ConversionItem Id="bf66cb00-e913-4be9-9913-014956da7b96" NewId="ec04e66f-89c5-4dc7-b729-68e054fcf4c4" />
-          <ConversionItem Id="ef284817-cff6-4729-a020-4f55f6d98b32" NewId="68911502-0d84-4197-a1aa-c3ddf9c40878" />
-          <ConversionItem Id="e95ddb92-e8ea-4706-9de3-53a3f9616783" NewId="10568f4a-129d-48ce-b1a8-f6d531521727" />
-          <ConversionItem Id="2d56944f-c86e-404e-b7dd-0e6844d1b5f1" NewId="cac6733c-cc4a-42b6-b33f-6613f06f5ffa" />
-          <ConversionItem Id="954633a5-a8ea-4684-a022-fdb5ef07363e" NewId="d772a091-d3df-4ada-b22f-8635cff7daa6" />
-          <ConversionItem Id="555c3af7-d920-4d42-8447-581906ac5de6" NewId="d6d9808d-ce17-4cab-89e9-d50dda289266" />
-          <ConversionItem Id="c144c257-11c1-45d0-b7d3-47b723b775b5" NewId="102fa09c-f4ae-4a53-aa96-e2b0ee198ee8" />
-          <ConversionItem Id="9b93fdf3-46f1-49c1-9cef-6f0c16e93bfc" NewId="5b200535-8d7e-40ee-b343-7b741578d43b" />
-          <ConversionItem Id="1f0c35d4-ff8a-4611-9813-b77f0243d4ca" NewId="48ff5385-2b19-441b-a74e-3f578c40a2a4" />
-          <ConversionItem Id="2f7a53d0-e2e8-43f1-ad21-385ac038ae27" NewId="8543b5a7-73f8-4416-9439-9e032e24a364" />
-          <ConversionItem Id="402773e9-337e-457e-95b0-59ccd7897849" NewId="d3e388c7-9869-424f-bd61-0ae137e65a14" />
-          <ConversionItem Id="2dddc953-fe1e-41c2-b5a6-941c0bb3add2" NewId="c1a2a8fc-eec2-4c90-881c-345303eab770" />
-          <ConversionItem Id="2cf52772-14ea-46c7-af0d-d6bbf0c8312d" NewId="4a42dfb3-2b08-4b48-b937-c40fbea43a22" />
-          <ConversionItem Id="95f87864-5e6c-48e5-8fa0-17d48f17eb55" NewId="c5cfa9d2-7a13-4b91-bd71-36398be71b55" />
-          <ConversionItem Id="7c791f0a-21e6-4f76-9286-285270b71435" NewId="b3223fd5-05cd-43fe-9b20-98761b7a07b2" />
           <ConversionItem Id="db1b2b00-af00-48c8-bc1e-ccb8fec9af6e" NewId="5760543b-bf18-44e5-996e-c4f175fe2994" />
           <ConversionItem Id="9198b654-a199-48ca-bf2a-8e8755a0d9be" NewId="9822eb3d-5aef-487f-987b-2e3b87d034b3" />
           <ConversionItem Id="85730d80-cb1e-4528-a958-12f5c254ae7d" NewId="ad1c6513-76b5-4a8f-ae20-4dcc343b9d66" />
@@ -112,6 +99,27 @@ Please see https://github.com/Pyxis31 for changes.</Comment>
           <ConversionItem Id="5201459e-2219-404b-9a58-4fa23cf1bc36" NewId="9c58bb47-9a01-4775-aff1-be1ed2f5b55f" />
           <ConversionItem Id="412d5bbf-7e58-4f87-a743-9e3df6a8f17e" NewId="be58543a-e444-46ea-a415-0d652ff00f1a" />
           <ConversionItem Id="0f05a371-0b17-4d34-b224-2ce9f032e07b" NewId="ad8f60d5-c7ea-44da-9171-0ec56540af89" />
+          <ConversionItem Id="1f0c35d4-ff8a-4611-9813-b77f0243d4ca" NewId="48ff5385-2b19-441b-a74e-3f578c40a2a4" />
+          <ConversionItem Id="2f7a53d0-e2e8-43f1-ad21-385ac038ae27" NewId="8543b5a7-73f8-4416-9439-9e032e24a364" />
+          <ConversionItem Id="402773e9-337e-457e-95b0-59ccd7897849" NewId="d3e388c7-9869-424f-bd61-0ae137e65a14" />
+          <ConversionItem Id="2dddc953-fe1e-41c2-b5a6-941c0bb3add2" NewId="c1a2a8fc-eec2-4c90-881c-345303eab770" />
+          <ConversionItem Id="2cf52772-14ea-46c7-af0d-d6bbf0c8312d" NewId="4a42dfb3-2b08-4b48-b937-c40fbea43a22" />
+          <ConversionItem Id="95f87864-5e6c-48e5-8fa0-17d48f17eb55" NewId="c5cfa9d2-7a13-4b91-bd71-36398be71b55" />
+          <ConversionItem Id="7c791f0a-21e6-4f76-9286-285270b71435" NewId="b3223fd5-05cd-43fe-9b20-98761b7a07b2" />
+          <ConversionItem Id="ef284817-cff6-4729-a020-4f55f6d98b32" NewId="68911502-0d84-4197-a1aa-c3ddf9c40878" />
+          <ConversionItem Id="e95ddb92-e8ea-4706-9de3-53a3f9616783" NewId="10568f4a-129d-48ce-b1a8-f6d531521727" />
+          <ConversionItem Id="2d56944f-c86e-404e-b7dd-0e6844d1b5f1" NewId="cac6733c-cc4a-42b6-b33f-6613f06f5ffa" />
+          <ConversionItem Id="954633a5-a8ea-4684-a022-fdb5ef07363e" NewId="d772a091-d3df-4ada-b22f-8635cff7daa6" />
+          <ConversionItem Id="555c3af7-d920-4d42-8447-581906ac5de6" NewId="d6d9808d-ce17-4cab-89e9-d50dda289266" />
+          <ConversionItem Id="c144c257-11c1-45d0-b7d3-47b723b775b5" NewId="102fa09c-f4ae-4a53-aa96-e2b0ee198ee8" />
+          <ConversionItem Id="9b93fdf3-46f1-49c1-9cef-6f0c16e93bfc" NewId="5b200535-8d7e-40ee-b343-7b741578d43b" />
+          <ConversionItem Id="c6aae11a-71b2-4287-a236-b6f49313328e" NewId="4a799a13-71a5-43af-b663-d843bc3c2428" />
+          <ConversionItem Id="86ffa59e-4d04-4f65-9a99-0838190ee8ab" NewId="12d08dbb-f810-48af-8baa-d6cd296f2274" />
+          <ConversionItem Id="6b45de7a-a797-4ace-94d7-e708f54602e3" NewId="a3e452b4-b32f-4a93-99f8-6a520735370f" />
+          <ConversionItem Id="cdda2d9d-5186-4dfc-b577-8694c0bea111" NewId="d5a514d8-bf93-4925-85b4-b6ae087634af" />
+          <ConversionItem Id="e29ba07b-4938-4b6f-85c6-13a4274416e8" NewId="11fd5047-e6e3-4be3-a229-57dc8dca8606" />
+          <ConversionItem Id="55882f5f-3bb2-4297-95f8-32dbbaabfb8a" NewId="763592b3-adf7-4850-8a75-68d211052766" />
+          <ConversionItem Id="b8beeb9b-ac94-48ec-a5d2-6ece505f6738" NewId="a2a98c4a-df7a-4a59-b2cd-014ec0639117" />
           <ConversionItem Id="02a14067-ab2d-4d67-9430-76c74bd67eb6" NewId="7306447e-f5ff-4675-808c-7974efc96bb8" />
           <ConversionItem Id="3918c5d5-fbac-44df-919e-3395f89ba6e5" NewId="0d005511-f90a-440d-adc4-c1ec0e087a6c" />
           <ConversionItem Id="8ccd25cb-4f4e-4ec5-92c8-3d3d542a768e" NewId="441aec8d-0129-46af-b910-45867ece907b" />
