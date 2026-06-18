@@ -1,0 +1,20 @@
+<StructuredTextModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Text>(*&#xD;
+*******************************************&#xD;
+*		  				Polynôme 7						*&#xD;
+*******************************************&#xD;
+*)&#xD;
+&#xD;
+// Coéficients&#xD;
+a:=1.0/6.0*(-120.0+60.0*v0+60.0*v1+12.0*a0-12.0*a1+j0+j1);&#xD;
+b:=1.0/6.0*(420.0-216.0*v0-204.0*v1-45.0*a0+39.0*a1-4.0*j0-3.0*j1);&#xD;
+c:=1.0/2.0*(-168.0+90.0*v0+78.0*v1+20.0*a0-14.0*a1+2.0*j0+j1);&#xD;
+d:=1.0/6.0*(210.0-120.0*v0-90.0*v1-30.0*a0+15.0*a1-4.0*j0-j1);&#xD;
+e:=j0/6.0;&#xD;
+f:=a0/2.0;&#xD;
+g:=v0;&#xD;
+h:=0.0;&#xD;
+K:=TargetDist;&#xD;
+&#xD;
+// Position&#xD;
+fPoly7:=Offset+(K*(a*(x**7)+b*(x**6)+c*(x**5)+d*(x**4)+e*(x**3)+f*(x**2)+g*x+h));&#xD;
+</Text></StructuredTextModel>
